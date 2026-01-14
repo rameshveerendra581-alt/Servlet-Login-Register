@@ -29,27 +29,21 @@ This project is built to strengthen **core servlet concepts** before moving to *
 - Eclipse IDE
 - Git & GitHub
 
----
 
-## 📂 Project Structure
-SessionBasedUser/
-├── src/main/java
-│   ├── co/in/Backend
-│   │   ├── Registeruser.java
-│   │   ├── LoginUser.java
-│   │   ├── Dashboarduser.java
-│   │   └── Logoutuser.java
-│   └── DBUser
-│       └── DBconnectionuser.java
-│
-├── src/main/webapp
-│   ├── CSS
-│   │   ├── Style.css
-│   │   └── Dashboard.css
-│   ├── Login.html
-│   ├── Registrationuser.html
-│   └── WEB-INF/lib
-│       └── mysql-connector-j-9.5.0.jar
-│
-└── README.md
+How to Run :
+Clone the repository
+git clone https://github.com/rameshveerendra581-alt/Servlet-Login-Register.git
+Import project into Eclipse
+Configure Apache Tomcat 9
+Update DB credentials in DBconnectionuser.java
+Start Tomcat
+Open in browser:
+http://localhost:8080/SessionBasedUser/Login.html
+
+
+
+
+
+
+
 
