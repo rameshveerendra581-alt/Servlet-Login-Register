@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+<body>
+
+<div class="card">
+    <h2>Login</h2>
+
+    <form action="login1" method="post" autocomplete="off">
+
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email"
+                   name="email"
+                   placeholder="Email"
+                   autocomplete="off"
+                   required>
+        </div>
+
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password"
+                   name="password"
+                   placeholder="Password"
+                   autocomplete="new-password"
+                   required>
+        </div>
+
+        <button class="btn">Login</button>
+    </form>
+
+    <div class="link">
+        <p>Don't have an account? <a href="Registrationuser.html">Register</a></p>
+    </div>
+</div>
+
+<script>
+    window.onload = function () {
+        document.querySelector('input[name="email"]').value = "";
+        document.querySelector('input[name="password"]').value = "";
+    };
+</script>
+
+</body>
+</html>
